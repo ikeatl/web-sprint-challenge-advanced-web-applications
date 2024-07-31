@@ -40,7 +40,7 @@ The endpoints needed for this project are the following:
   - The response to a proper request includes `200 OK` and a list of articles which could be empty
 - `[POST] http://localhost:9000/api/articles`
   - Expects an `Authorization` request header containing a valid auth token
-  - Expects a payload with the following properties: `title`, `text`, `topic`
+  - Expects a payload with the following properties: C
   - The `title` and `text` length must be >= 1, after trimming
   - The `topic` needs to be one of three values: `React`, `JavaScript`, `Node`
   - Example of payload: `{ "title": "foo", "text": "bar", "topic": "React" }`
